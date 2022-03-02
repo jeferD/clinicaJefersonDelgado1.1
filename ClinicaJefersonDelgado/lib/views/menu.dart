@@ -20,7 +20,7 @@ class _menuState extends State<menu> {
         body: ListView(
           children: [
             ListTile(
-              leading: Icon(Icons.add),
+              leading: Icon(Icons.person_outline),
               title: Text("Mis datos personales"),
               trailing: Icon(Icons.arrow_right),
               onTap: () {
@@ -29,7 +29,7 @@ class _menuState extends State<menu> {
               },
             ),
             ListTile(
-              leading: Icon(Icons.remove),
+              leading: Icon(Icons.receipt_long_outlined),
               title: Text("Mis tratamientos"),
               trailing: Icon(Icons.arrow_right),
               onTap: () {
@@ -38,7 +38,7 @@ class _menuState extends State<menu> {
               },
             ),
             ListTile(
-              leading: Icon(Icons.clear),
+              leading: Icon(Icons.view_agenda_outlined),
               title: Text("Citas y agendamiento"),
               trailing: Icon(Icons.arrow_right),
               onTap: () {
