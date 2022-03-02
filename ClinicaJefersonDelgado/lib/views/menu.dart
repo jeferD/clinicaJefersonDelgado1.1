@@ -29,7 +29,7 @@ class _menuState extends State<menu> {
               },
             ),
             ListTile(
-              leading: Icon(Icons.receipt_long_outlined),
+              leading: Icon(Icons.receipt),
               title: Text("Mis tratamientos"),
               trailing: Icon(Icons.arrow_right),
               onTap: () {
@@ -38,7 +38,7 @@ class _menuState extends State<menu> {
               },
             ),
             ListTile(
-              leading: Icon(Icons.view_agenda_outlined),
+              leading: Icon(Icons.view_agenda),
               title: Text("Citas y agendamiento"),
               trailing: Icon(Icons.arrow_right),
               onTap: () {
@@ -49,7 +49,7 @@ class _menuState extends State<menu> {
               },
             ),
             ListTile(
-              leading: Icon(Icons.image),
+              leading: Icon(Icons.payment),
               title: Text("Pagos realizados"),
               trailing: Icon(Icons.arrow_right),
               onTap: () {
