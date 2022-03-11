@@ -18,213 +18,212 @@ class citasAgendamiento extends StatelessWidget {
         ),
         body: SingleChildScrollView(
           padding: EdgeInsets.all(20),
-          child: Column(
-            children: [card(), card2(), card3()],
-          ),
+          child: card(),
         ));
   }
 
   Widget card() {
-    return Card(
-      elevation: 10,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-      child: Container(
-          child: SizedBox(
-        width: 400,
-        child: Column(
-          children: [
-            Text(
-              'Fecha: ',
-              textAlign: TextAlign.left,
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 20,
-              ),
+    return Column(
+      children: [
+        Card(
+          elevation: 10,
+          shape:
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+          child: Container(
+              child: SizedBox(
+            width: 400,
+            child: Column(
+              children: [
+                Text(
+                  'Fecha: ',
+                  textAlign: TextAlign.left,
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 20,
+                  ),
+                ),
+                Text(
+                  '24 de marzo 2022',
+                  style: TextStyle(
+                    fontSize: 20,
+                  ),
+                ),
+                Text(
+                  'Hora: ',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 20,
+                  ),
+                ),
+                Text(
+                  '8:20 am',
+                  style: TextStyle(
+                    fontSize: 20,
+                  ),
+                ),
+                Text(
+                  'tratamiento: ',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 20,
+                  ),
+                ),
+                Text(
+                  'Odontologia general',
+                  style: TextStyle(
+                    fontSize: 20,
+                  ),
+                ),
+                Text(
+                  'Doctor: ',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 20,
+                  ),
+                ),
+                Text(
+                  'Mario Gonzales Perez',
+                  style: TextStyle(
+                    fontSize: 20,
+                  ),
+                ),
+              ],
             ),
-            Text(
-              '24 de marzo 2022',
-              style: TextStyle(
-                fontSize: 20,
-              ),
-            ),
-            Text(
-              'Hora: ',
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 20,
-              ),
-            ),
-            Text(
-              '8:20 am',
-              style: TextStyle(
-                fontSize: 20,
-              ),
-            ),
-            Text(
-              'tratamiento: ',
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 20,
-              ),
-            ),
-            Text(
-              'Odontologia general',
-              style: TextStyle(
-                fontSize: 20,
-              ),
-            ),
-            Text(
-              'Doctor: ',
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 20,
-              ),
-            ),
-            Text(
-              'Mario Gonzales Perez',
-              style: TextStyle(
-                fontSize: 20,
-              ),
-            ),
-          ],
+          )),
         ),
-      )),
-    );
-  }
-
-  Widget card2() {
-    return Card(
-      elevation: 10,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-      child: Container(
-          child: SizedBox(
-        width: 400,
-        child: Column(
-          children: [
-            Text(
-              'Fecha: ',
-              textAlign: TextAlign.left,
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 20,
-              ),
+        Card(
+          elevation: 10,
+          shape:
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+          child: Container(
+              child: SizedBox(
+            width: 400,
+            child: Column(
+              children: [
+                Text(
+                  'Fecha: ',
+                  textAlign: TextAlign.left,
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 20,
+                  ),
+                ),
+                Text(
+                  '30 de marzo 2022',
+                  style: TextStyle(
+                    fontSize: 20,
+                  ),
+                ),
+                Text(
+                  'Hora: ',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 20,
+                  ),
+                ),
+                Text(
+                  '9:40 am',
+                  style: TextStyle(
+                    fontSize: 20,
+                  ),
+                ),
+                Text(
+                  'tratamiento: ',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 20,
+                  ),
+                ),
+                Text(
+                  'Endodoncia',
+                  style: TextStyle(
+                    fontSize: 20,
+                  ),
+                ),
+                Text(
+                  'Doctor: ',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 20,
+                  ),
+                ),
+                Text(
+                  'Fernanda Gutierrez',
+                  style: TextStyle(
+                    fontSize: 20,
+                  ),
+                ),
+              ],
             ),
-            Text(
-              '30 de marzo 2022',
-              style: TextStyle(
-                fontSize: 20,
-              ),
-            ),
-            Text(
-              'Hora: ',
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 20,
-              ),
-            ),
-            Text(
-              '9:40 am',
-              style: TextStyle(
-                fontSize: 20,
-              ),
-            ),
-            Text(
-              'tratamiento: ',
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 20,
-              ),
-            ),
-            Text(
-              'Endodoncia',
-              style: TextStyle(
-                fontSize: 20,
-              ),
-            ),
-            Text(
-              'Doctor: ',
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 20,
-              ),
-            ),
-            Text(
-              'Fernanda Gutierrez',
-              style: TextStyle(
-                fontSize: 20,
-              ),
-            ),
-          ],
+          )),
         ),
-      )),
-    );
-  }
-
-  Widget card3() {
-    return Card(
-      elevation: 10,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-      child: Container(
-          child: SizedBox(
-        width: 400,
-        child: Column(
-          children: [
-            Text(
-              'Fecha: ',
-              textAlign: TextAlign.left,
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 20,
-              ),
+        Card(
+          elevation: 10,
+          shape:
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+          child: Container(
+              child: SizedBox(
+            width: 400,
+            child: Column(
+              children: [
+                Text(
+                  'Fecha: ',
+                  textAlign: TextAlign.left,
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 20,
+                  ),
+                ),
+                Text(
+                  '2 de abril 2022',
+                  style: TextStyle(
+                    fontSize: 20,
+                  ),
+                ),
+                Text(
+                  'Hora: ',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 20,
+                  ),
+                ),
+                Text(
+                  '4:20 pm',
+                  style: TextStyle(
+                    fontSize: 20,
+                  ),
+                ),
+                Text(
+                  'tratamiento: ',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 20,
+                  ),
+                ),
+                Text(
+                  'Blancamiendo dental',
+                  style: TextStyle(
+                    fontSize: 20,
+                  ),
+                ),
+                Text(
+                  'Doctor: ',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 20,
+                  ),
+                ),
+                Text(
+                  'Mario Gonzales Perez',
+                  style: TextStyle(
+                    fontSize: 20,
+                  ),
+                ),
+              ],
             ),
-            Text(
-              '2 de abril 2022',
-              style: TextStyle(
-                fontSize: 20,
-              ),
-            ),
-            Text(
-              'Hora: ',
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 20,
-              ),
-            ),
-            Text(
-              '4:20 pm',
-              style: TextStyle(
-                fontSize: 20,
-              ),
-            ),
-            Text(
-              'tratamiento: ',
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 20,
-              ),
-            ),
-            Text(
-              'Blancamiendo dental',
-              style: TextStyle(
-                fontSize: 20,
-              ),
-            ),
-            Text(
-              'Doctor: ',
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 20,
-              ),
-            ),
-            Text(
-              'Mario Gonzales Perez',
-              style: TextStyle(
-                fontSize: 20,
-              ),
-            ),
-          ],
+          )),
         ),
-      )),
+      ],
     );
   }
 }
